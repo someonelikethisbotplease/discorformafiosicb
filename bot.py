@@ -95,4 +95,4 @@ async def on_member_join(member):
 
 
 
-Bot.run('NzI5OTQ4NDExODcyMjgwNjI2.XwQYWQ.e2nhoaXGloZFgmptyqUiKDecLzI')
+token = os.environ.get('BOT_TOKEN')
