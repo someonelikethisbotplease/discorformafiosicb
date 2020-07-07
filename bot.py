@@ -8,7 +8,7 @@ import os
 
 
 
-Bot = commands.Bot(command_prefix= '%')
+Bot = commands.Bot(command_prefix= '!')
 
 #file = discord.File("text.txt", filename = "text.txt")
 #await ctx.send("message" ,file = file)
