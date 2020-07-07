@@ -7,7 +7,7 @@ from discord.ext.commands import Bot
 import os
 
 
-
+prefix = '!'
 Bot = commands.Bot(command_prefix= '!')
 
 #file = discord.File("text.txt", filename = "text.txt")
