@@ -14,7 +14,6 @@ Bot = commands.Bot(command_prefix= '!')
 
 #file = discord.File("text.txt", filename = "text.txt")
 #await ctx.send("message" ,file = file)
-#file(название файла в папке, филенаме= название файла в дискорде который будет
 
 
 
@@ -171,7 +170,7 @@ async def on_member_join(member):
 	role = utils.get(member.guild.roles, name="Пролетар-Югенд") 
 
 
-	#newUserMessage = "Привет, {0}! Ты попал на сервер MAFIOSI CB-Youtube. Мы рады тебя тут видеть и всегда готовы тебе помочь. Чувствуй себя тут, как дома.".format(member.name)
+	
 	
 
 	print("Короче вроде этот челик по ником " + member.name + " присоединился")
